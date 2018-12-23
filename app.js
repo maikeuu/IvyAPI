@@ -34,6 +34,7 @@ app.use((req, res, next) => {
   next();
 });
 
+//
 app.use("/user", userRoutes);
 
 // Catches any errors when using the wrong route
