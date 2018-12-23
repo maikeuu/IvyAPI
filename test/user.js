@@ -1,3 +1,7 @@
+var mongoose = require('mongoose')
+var User = require('../api/models/user')
+
+
 var assert = require('assert');
 describe('Array', function() {
   describe('#indexOf()', function() {
