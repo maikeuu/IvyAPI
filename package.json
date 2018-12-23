@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node app.js && mocha",
+    "test": "NODE_ENV=test mocha --exit --timeout 10000",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.9"
   }
